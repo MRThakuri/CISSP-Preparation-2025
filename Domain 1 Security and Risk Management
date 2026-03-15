@@ -1,3 +1,54 @@
 Domain 1 holds the highes marks in the CISSP examination thus consider as the very important section.
 
+The domain focuses on:
+1. CIA traid introduction and its concepts
+2. Understanding and Applying the Security Risk Concepts
+3. Policies creatation
+4. Business continuity
+5. Leagal and Regulatiries
+
+1. CIA Traid Introduction and Its Concepts
+- Confidentiality :  Authorize or Right User can only access the data
+- Integrity: Presever the data source
+- Avaliabillity: Authorize user can access the data at need basis.
+
+So during the exam the question may create a dillema to choose the right answer, for example: Scurity analyst encrypts the data and kepts in backup tape. which CIA traid is it
+Scenario
+
+- The analyst encrypts the data
+- Then stores it on a backup tape
+
+Action	                CIA Element	        Explanation
+- Encrypting the data	Confidentiality	    Encryption prevents unauthorized users from reading the data
+- Backup tape storage	Availability	    Backup enables data recovery if the original data is lost
+
+CISSP Exam Perspective
+
+The main security control applied is encryption, which directly protects Confidentiality.
+
+✅ Correct Answer
+
+Confidentiality
+
+📌 CISSP Tip
+When multiple actions exist in a question:
+
+Focus on the primary security control mentioned.
+
+Examples:
+
+Encryption → Confidentiality
+
+Hashing → Integrity
+
+Backup → Availability
+
+Since encryption is explicitly stated, the correct CIA component is Confidentiality
+
+So remeber below keywords and choose the answer on the exam, if question contains:
+# Access Controls, Least Privilege, Need to know : Confidentiality
+# Hashing, Checksum, Dual controls, Digital Signatures, Duty Segregration: Integrity
+# DR site, RAID levels, Backups, High Availability, Sucess Plans, Remote connection: Availability.
+
+
 
